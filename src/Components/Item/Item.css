@@ -40,3 +40,31 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
+.rating {
+    font-size: 16px;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .rating span {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .rating span.filled {
+    color: #ffd700;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .item:hover .rating span.filled {
+    color: #ffe600;
+  }
+  
+  .rating span.blank {
+    color: #ddd;
+  }
+
+  .rating .txt{
+    font-size: 12px;
+    color: black;
+  }
