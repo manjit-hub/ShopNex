@@ -17,7 +17,7 @@ const Item = (props) => {
           {[...Array(5)].map((_, i) => (
             <span key={i} className={i < rating? 'filled' : 'blank'}>★</span>
           ))}
-          <span class={`txt_${theme}`}> ({rating}/5)</span>
+          {/* <span class={`txt_${theme}`}> ({rating}/5)</span> */}
         </div>
         <div className="item-prices">
           <div className={`item-price-new_${theme}`}>${props.new_price}</div>
